@@ -53,11 +53,11 @@ version="1.0">
 -->
   <role rolename="manager-gui"/>
   <role rolename="manager-script"/>
-  <user username="tomcat" password="admin123" roles="manager-gui,manager-script"/>
+  <user username="tomcat" password="admin123" roles="manager-gui,manager-script"/> #This help us to deploy artifacts from Jenkins server
 </tomcat-users>
 EOT
 
-cat <<EOT>> /usr/local/tomcat8/webapps/manager/META-INF/context.xml
+cat <<EOT>> /usr/local/tomcat8/webapps/manager/META-INF/context.xml #To access remotely tomcat manager paeg
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Licensed to the Apache Software Foundation (ASF) under one or more
@@ -77,7 +77,7 @@ cat <<EOT>> /usr/local/tomcat8/webapps/manager/META-INF/context.xml
 -->
 <Context antiResourceLocking="false" privileged="true" >
 <!--
-  <Valve className="org.apache.catalina.valves.RemoteAddrValve"
+  <Valve className="org.apache.catalina.valves.RemoteAddrValve" #disable these two setting to get access to the manage from remote
          allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />
   <Manager sessionAttributeValueClassNameFilter="java\.lang\.(?:Boolean|Integer|Long|Number|String)|org\.apache\.catalina\.filters\.CsrfPreventionFilter\$LruCache(?:\$1)?|java\.util\.(?:Linked)?HashMap"/>
 -->
