@@ -12,5 +12,5 @@ Visualpathit VProfile Webapp,com.visualpathit.account.utils,MemcachedUtils,379,0
 Visualpathit VProfile Webapp,com.visualpathit.account.service,UserServiceImpl,40,0,0,0,8,0,5,0,5,0
 Visualpathit VProfile Webapp,com.visualpathit.account.service,ProducerServiceImpl,89,0,0,0,22,0,2,0,2,0
 Visualpathit VProfile Webapp,com.visualpathit.account.service,UserDetailsServiceImpl,41,0,2,0,8,0,3,0,2,0
-Visualpathit VProfile Webapp,com.visualpathit.account.service,ConsumerServiceImpl,21,0,0,0,4,0,2,0,2,0
 Visualpathit VProfile Webapp,com.visualpathit.account.service,SecurityServiceImpl,55,0,4,0,17,0,6,0,4,0
+Visualpathit VProfile Webapp,com.visualpathit.account.service,ConsumerServiceImpl,21,0,0,0,4,0,2,0,2,0
