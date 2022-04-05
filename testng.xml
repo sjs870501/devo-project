@@ -8,7 +8,7 @@
 	</test> -->
 	<test name="PrincipleTestSuite">
 		<classes>
-			<class name="DevOPS.devOPS.VProfile_TestSuite"/>
+			<class name="DevOPS.devOPS.Devo_TestSuite"/>
 			</classes>
 	</test>
 		
