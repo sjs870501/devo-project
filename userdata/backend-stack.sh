@@ -6,7 +6,7 @@ yum install mariadb-server -y
 yum install wget git unzip -y
 
 #mysql_secure_installation
-sed -i 's/^127.0.0.1/0.0.0.0/' /etc/my.cnf
+#sed -i 's/^127.0.0.1/0.0.0.0/' /etc/my.cnf
 
 # starting & enabling mariadb-server
 systemctl start mariadb
